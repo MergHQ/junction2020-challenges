@@ -28,6 +28,10 @@ export default function Home(props: Props) {
     <div className={styles.container}>
       <Head>
         <title>Junction 2020 Challenges</title>
+        <meta name="title" content="Junction 2020 challenges" />
+        <meta name="description" content="Simple view of Junction 2020 challenges" />
+        <meta property="og:title" content="Junction 2020 challenges" />
+        <meta property="og:description" content="Simple view of Junction 2020 challenges" />
       </Head>
       <h1 className={styles.title}>
         Junction 2020 challenges
