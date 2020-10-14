@@ -40,8 +40,11 @@ export default function Home(props: Props) {
           )
         }
       </main>
+      <footer className={styles.footer}>
+        <p>Created by <a href="https://github.com/MergHQ">Hugo Holmqvist</a></p>
+      </footer>
     </div>
-  );
+  )
 }
 
 const Challenge = ({ challenge }: { challenge: Challenge }) =>
