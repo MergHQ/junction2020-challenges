@@ -55,18 +55,18 @@ const Challenge = ({ challenge }: { challenge: Challenge }) =>
   <div className={styles.card}>
     <div className={styles.cardheader}>
       <h3>{challenge.name}</h3>
-      <img className={styles.logo} src={challenge.cardbackground.url}></img>
+      <img loading="lazy" className={styles.logo} src={challenge.cardbackground.url}></img>
     </div>
     <h4>{challenge.shorttext}</h4>
     <h4>The challenge</h4>
     <ReactMarkdown source={challenge.thechallenge} />
     <h4>Insights</h4>
     <ReactMarkdown source={challenge.insights} />
-    <h4>Price</h4>
+    <h4>The prize</h4>
     <ReactMarkdown source={challenge.price} />
     <h4>Judging</h4>
     <ReactMarkdown source={challenge.judging} />
-    <h4>About company</h4>
+    <h4>About the company</h4>
     <ReactMarkdown source={challenge.aboutcompany} />
   </div>
 
